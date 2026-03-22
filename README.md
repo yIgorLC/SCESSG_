@@ -11,9 +11,9 @@ Para ter acesso ao código, contate o desenvolvedor.
 
 ---
 
-## 📸 Demonstração do Sistema
+## 📸 Link do Sistema
 
-*(DICA: Arraste e solte uma imagem ou GIF do seu painel a funcionar aqui para o GitHub carregar a imagem)*
+*https://script.google.com/macros/s/AKfycbyX6iel38pOIOPjhhSlrq-voNQ5ubL2CUHaqCrVF5aXrQ32Xp0bODNs0Fm1VawbccAk/exec*
 
 ---
 
