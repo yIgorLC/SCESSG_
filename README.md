@@ -1,3 +1,5 @@
+Para ter acesso ao código, contate o desenvolvedor.
+
 # 📦 Sistema de Logística e Infraestrutura - Comissão Firjan SESI
 
 ![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=for-the-badge&logo=google&logoColor=white)
@@ -23,7 +25,7 @@ Em vez de utilizar servidores pagos e bases de dados complexas, o projeto utiliz
 
 ---
 
-## ✨ Principais Funcionalidades
+##  Principais Funcionalidades
 
 * **📊 Dashboard de KPIs em Tempo Real:** Visão global de itens pedidos vs. entregues.
 * **💾 Sistema de Rascunho (Drafts) com Deteção de Conflitos:** Se o utilizador digita um valor e outro membro da equipa atualiza o banco de dados antes do salvamento, o sistema não apaga o que foi digitado, mas exibe um alerta visual (`⚠️ Oficial: X`), permitindo descartar ou sobrescrever.
@@ -35,7 +37,7 @@ Em vez de utilizar servidores pagos e bases de dados complexas, o projeto utiliz
 
 ---
 
-## 🧠 Destaques de Engenharia e Arquitetura
+##  Destaques de Engenharia e Arquitetura
 
 ### 1. Evasão de Limites de Cota (Stress Tested)
 O Google Apps Script possui limites diários de execução (90 a 360 minutos de tempo de servidor). O sistema foi arquitetado para dividir o processamento, unindo um intervalo de *polling* otimizado (20 min) com *cooldowns* manuais (60s), garantindo que uma equipa de 15 pessoas operando por 20 horas consuma uma fração ínfima da cota diária.
@@ -45,7 +47,7 @@ Para evitar o bloqueio de "Prevenção de Rastreamento entre Sites" nativo da Ap
 
 ---
 
-## 🚀 Como Instalar e Executar
+##  Como Instalar e Executar
 
 Siga os passos abaixo para implantar o sistema no seu ambiente Google Workspace:
 
@@ -68,7 +70,7 @@ Siga os passos abaixo para implantar o sistema no seu ambiente Google Workspace:
 
 ---
 
-## 📱 Interface Responsiva
+##  Interface Responsiva
 
 O CSS foi construído do zero utilizando boas práticas de Design System (CSS Variables) para facilitar a manutenção de cores e temas. O layout adapta-se perfeitamente a iPads e ecrãs de telemóveis, facilitando o uso pela equipa de logística que está a caminhar pelo evento.
 
